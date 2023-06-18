@@ -1,0 +1,55 @@
+
+.laptop-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(400px, auto);
+    grid-gap: 20px;
+  }
+
+.laptop {
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .laptop img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    object-fit: contain;
+  }
+  
+  .laptop h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .laptop p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .laptop button {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077FF;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+  
+  .laptop button:hover {
+    background-color: #005AE6;
+  }
+  
