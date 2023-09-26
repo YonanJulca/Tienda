@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
+        {/* Primera fila de contenido */}
         <div className="footer__row">
           <div className="footer__col">
             <h3 className="footer__heading">Contacto</h3>
@@ -14,6 +15,7 @@ const Footer = () => {
           </div>
           <div className="footer__col">
             <h3 className="footer__heading">Enlaces útiles</h3>
+            {/* Lista de enlaces */}
             <ul className="footer__list">
               <li className="footer__list-item">
                 <a href="/politica-privacidad" className="footer__link">Política de privacidad</a>
@@ -28,14 +30,18 @@ const Footer = () => {
           </div>
           <div className="footer__col">
             <h3 className="footer__heading">Suscríbete</h3>
+            {/* Formulario de suscripción */}
             <form className="footer__form">
               <input type="email" placeholder="Correo electrónico" className="footer__input" />
               <button type="submit" className="footer__button">Suscribirse</button>
             </form>
           </div>
         </div>
+
+        {/* Segunda fila de contenido */}
         <div className="footer__row">
           <div className="footer__col">
+            {/* Enlaces a redes sociales */}
             <div className="footer__social">
               <a href="https://www.facebook.com/tutienda" className="footer__social-link">
                 <i className="fa fa-facebook"></i>
@@ -49,8 +55,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
+
+        {/* Tercera fila de contenido */}
         <div className="footer__row">
           <div className="footer__col">
+            {/* Derechos de autor */}
             <p className="footer__copy">&copy; 2023 Tu Tienda - Todos los derechos reservados.</p>
           </div>
         </div>

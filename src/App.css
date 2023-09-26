@@ -1,38 +1,44 @@
+/* Establece el texto alineado al centro */
 .App {
   text-align: center;
 }
 
+/* Define el tamaño y el comportamiento del logotipo de la aplicación */
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /* 40% del tamaño de la ventana visible */
+  pointer-events: none; /* Deshabilita eventos de puntero (no se puede hacer clic en el logotipo) */
 }
 
+/* Define una animación de giro para el logotipo si el usuario no tiene preferencias de reducción de movimiento */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* Animación de giro infinito en 20 segundos */
   }
 }
 
+/* Define el estilo del encabezado de la aplicación */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #282c34; /* Color de fondo (gris oscuro-azulado) */
+  min-height: 100vh; /* Altura mínima igual al 100% de la altura visible de la ventana */
+  display: flex; /* Establece el diseño flexible */
+  flex-direction: column; /* Los elementos hijos se apilan verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
+  font-size: calc(10px + 2vmin); /* Tamaño de fuente basado en la ventana */
+  color: white; /* Color del texto (blanco) */
 }
 
+/* Define el estilo de los enlaces en la aplicación */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Color del enlace (azul claro) */
 }
 
+/* Define la animación de giro para el logotipo */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Rotación inicial: 0 grados */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Rotación final: 360 grados (completa vuelta) */
   }
 }

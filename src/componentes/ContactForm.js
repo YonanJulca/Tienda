@@ -3,16 +3,19 @@ import { Form, Button } from "react-bootstrap";
 import "../hojas-estilos/ContactForm.css"; // Importar archivo CSS personalizado
 
 function ContactForm() {
+  // Estado para almacenar los datos del formulario
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
 
+  // Función para manejar cambios en los campos de entrada
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Función para manejar el envío del formulario
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData); // Aquí puedes enviar los datos a tu servidor o hacer lo que necesites con ellos
