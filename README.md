@@ -24,7 +24,7 @@ Este proyecto es una tienda en línea de laptops construida utilizando React y R
 
 ## Enlace del Proyecto
 
-[Visita la Tienda de Laptops](yonan-fb0fc.firebaseapp.com)
+yonan-fb0fc.firebaseapp.com
 
 ## Instalación y Uso
 
