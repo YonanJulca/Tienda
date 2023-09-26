@@ -36,6 +36,11 @@ Este proyecto es una tienda en línea de laptops construida utilizando React y R
 
 ### Capturas de Pantalla
 
-![image](https://github.com/YonanJulca/Artefactos-/assets/118832697/c6a131d2-1e5d-42b3-85bb-a62f76ab1f0a)
+![Captura de pantalla (864)](https://github.com/YonanJulca/Artefactos-/assets/118832697/c4e329ef-9fce-450e-bca7-380314f8bf11)
+![Captura de pantalla (865)](https://github.com/YonanJulca/Artefactos-/assets/118832697/1fcc8f01-b8ae-417b-bac5-c861bf9181ec)
+![Captura de pantalla (866)](https://github.com/YonanJulca/Artefactos-/assets/118832697/a0724901-dd15-488b-a7cc-5725dfa559a6)
+
+
+
 
 
